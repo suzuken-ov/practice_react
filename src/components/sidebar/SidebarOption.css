@@ -1,0 +1,21 @@
+.sidebarOprion{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.15 ease-out;
+}
+.sidebarOprion:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+    
+}
+.sidebarOprion > .MuiSvgIcon-root{
+    padding-right: 20px;
+}
+
+.sidebarOprion > h2{
+    font-size: 20px;
+    margin-right: 20pox;
+    font-weight: 800;
+}
