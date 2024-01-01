@@ -1,4 +1,5 @@
 import React from "react";
+//Material Icon
 import TwitterIcon from '@mui/icons-material/Twitter';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from "@mui/icons-material/Search";
@@ -10,6 +11,9 @@ import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import Button from '@mui/material/Button';
 import SidebarOption from "./SidebarOption";
+//CSS
+import "../sidebar/Sidebar.css";
+
 
 const Sidebar=()=>{
     return(
