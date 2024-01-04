@@ -16,8 +16,8 @@ const TweetBox =()=>{
         e.preventDefault();
         /*  dbに保存する*/
         addDoc(collection(db,"posts"),{
-            displayName:"プログラミングチュートリアル",
-            userName:"ShinEnginer",
+            displayName:"Chamuji",
+            userName:"chamuji1023",
             verified:true,
             text:tweetMessage,
             avatar:"http://shincode.info/wp-content/uploads/2021/12/icon.png",
